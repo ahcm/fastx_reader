@@ -2,6 +2,7 @@
 FastQ and Fasta readers for NIM
 
 # Usage
+"""
   import os
   let args = commandLineParams()
   let filename = args[0]
@@ -14,3 +15,4 @@ FastQ and Fasta readers for NIM
       echo filename, " ", name," ", len(sequence)
   else:
     echo "Don't know whether file is Fasta or FastQ from filename"
+"""
